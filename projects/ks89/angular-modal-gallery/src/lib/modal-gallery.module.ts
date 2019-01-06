@@ -29,12 +29,13 @@ import { DIRECTIVES } from './directives/directives';
 import { COMPONENTS, ModalGalleryComponent, CarouselComponent } from './components/components';
 import { KEYBOARD_CONFIGURATION, KeyboardService } from './services/keyboard.service';
 import { KeyboardServiceConfig } from './model/keyboard-service-config.interface';
+import { OverlayContainer, OverlayModule } from '@angular/cdk/overlay';
 
 /**
  * Module to import it in the root module of your application.
  */
 @NgModule({
-  imports: [CommonModule],
+  imports: [CommonModule, OverlayModule],
   declarations: [COMPONENTS, DIRECTIVES],
   exports: [ModalGalleryComponent, CarouselComponent]
 })
@@ -47,6 +48,7 @@ export class GalleryModule {
     return {
       ngModule: GalleryModule,
       providers: [
+        OverlayContainer,
         {
           provide: KEYBOARD_CONFIGURATION,
           useValue: config ? config : {}
