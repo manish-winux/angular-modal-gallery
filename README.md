@@ -177,6 +177,7 @@ You can use all default features without font-awesome. For more info, check offi
 | Angular 5  | = 6.3.0                     | optional     |
 | Angular 6  | &gt;= 7.0.0                 | optional     |
 | Angular 7  | &gt;= 7.0.0                 | optional     |
+| Angular 8  | &gt;= 7.0.0                 | optional     |
 
 <br>
 
@@ -184,6 +185,7 @@ You can use all default features without font-awesome. For more info, check offi
 
 **More than 100 releases in two years**, and more to come... :)
 
+- ??/??/2019 - 8.0.0-alpha.1 - @ks89/angular-modal-gallery - [HERE](https://github.com/Ks89/angular-modal-gallery/releases)
 - 02/23/2019 - 7.3.0-rc.1 - @ks89/angular-modal-gallery - [HERE](https://github.com/Ks89/angular-modal-gallery/releases)
 - 01/03/2019 - 7.2.1 - @ks89/angular-modal-gallery - [HERE](https://github.com/Ks89/angular-modal-gallery/releases)
 - 12/29/2018 - 7.2.0 - @ks89/angular-modal-gallery - [HERE](https://github.com/Ks89/angular-modal-gallery/releases)
